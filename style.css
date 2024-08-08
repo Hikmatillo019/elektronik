@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+/*navigation bar  */
+nav {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: 0.3s ease-in-out;
+}
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  place-items: center;
+  padding: 12px;
+  width: 85%;
+  margin: auto;
+}
+#navbar-logo img {
+  width: 140px;
+  height: 70px;
+}
+#nav-links ul {
+  display: flex;
+  flex-direction: row;
+}
+#nav-links li {
+  margin-left: 60px;
+}
+#nav-links a {
+  text-decoration: none;
+  color: burlywood;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+.navbar-tools {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+}
+.navbar-tools i {
+  display: flex;
+  place-items: center;
+}
+.navbar-tools span {
+  background-color: red;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  position: relative;
+  bottom: 9px;
+  right: 6px;
+}
+#nav-links {
+  margin-right: 15px;
+}
+
+/* Product page */
+
+
+#product-page-body{
+  padding: 0 100px;
+}
+#product-top-container{
+  padding-top: 125px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+#product-top-wrapper{
+  background-color: #edf2fb;
+  width: 100%;
+  height: 628px;
+  overflow: hidden;
+  padding: 100px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  justify-content: space-between;
+
+
+
+}
+#product-top-text-section{
+  width: 52%;
+}
+#product-top-text-section h1{
+  color: rgb(64, 64, 64);
+  font-size: 23px;
+  font-weight: 600;
+  --webkit-font-antialiased :smoothing;
+}
